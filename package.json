@@ -1,0 +1,38 @@
+{
+    "name": "web-ban-hang",
+    "version": "1.0.0",
+    "description": "",
+    "main": "src/index.js",
+    "scripts": {
+        "start": "nodemon --inspect src/index.js",
+        "watch": "node-sass -w src/resources/scss -o src/public/css",
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/hungitytng99/nodejs_web-ban-hang.git"
+    },
+    "keywords": [
+        "web",
+        "quan",
+        "ao",
+        "web",
+        "ban",
+        "hang"
+    ],
+    "author": "HungTm, Van1236",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/hungitytng99/nodejs_web-ban-hang/issues"
+    },
+    "homepage": "https://github.com/hungitytng99/nodejs_web-ban-hang#readme",
+    "dependencies": {
+        "express": "^4.17.1"
+    },
+    "devDependencies": {
+        "express-handlebars": "^5.1.0",
+        "morgan": "^1.10.0",
+        "node-sass": "^4.14.1",
+        "nodemon": "^2.0.4"
+    }
+}
