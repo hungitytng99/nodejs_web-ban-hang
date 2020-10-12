@@ -8,10 +8,6 @@
         "watch": "node-sass -w src/resources/scss -o src/public/css",
         "test": "echo \"Error: no test specified\" && exit 1"
     },
-    "repository": {
-        "type": "git",
-        "url": "https://github.com/hungitytng99/nodejs_web-ban-hang.git"
-    },
     "keywords": [
         "web",
         "quan",
