@@ -1,4 +1,4 @@
-<div class="header-static">
+<div class="header-static hide-on-mobile">
     <div class="header-static_list">
         <div class="header-static__phone">
             <i class="header-static__icon fas fa-phone-alt"></i>
@@ -20,12 +20,21 @@
 </div>
 
 <header class="header-dynamic">
-    <div class="header-dynamic__logo">
-        <img src="https://bucket.nhanh.vn/store/2071/store_1584681428_275.png" alt="" class="header-dynamic__logo-img">
+
+    <div class="header-dynamic__list-left"> {{!-- Mobile + pc --}}
+
+        <div class="header-dynamic__mobile-category">
+            <i class="header-dynamic__mobile-logo fas fa-bars"></i>
+        </div>
+        <a href="/" class="header-dynamic__logo">
+            <img src="https://bucket.nhanh.vn/store/2071/store_1584681428_275.png" alt=""
+                class="header-dynamic__logo-img">
+        </a>
     </div>
 
-    <div class="header-dynamic__category">
-        <ul class="header-dynamic__category-list  ">
+
+    <div class="header-dynamic__category hide-on-mobile-tablet">
+        <ul class="header-dynamic__category-list">
             <li class="header-dynamic__category-item category--has-dropdown">
                 <a href="" class="header-dynamic__category-link">Sản phẩm</a>
 
@@ -242,12 +251,46 @@
         </ul>
     </div>
 
-    <div class="header-dynamic__search">
+    <div class="header-dynamic__search hide-on-mobile-tablet">
         <div class="header-dynamic__search-input">
             <input type="text" class="header-dynamic__search-text" placeholder="Tìm kiếm...">
             <i class="header-dynamic__search-logo fas fa-search"></i>
         </div>
     </div>
+    {{!-- tablet --}}
+    <div class="header-dynamic__tablet-list">
+        <div class="header-dynamic__tablet-search">
+            <i class="header-dynamic__tablet-logo header-dynamic__tablet-logo-search fas fa-search"></i>
+        </div>
+        <div class="header-dynamic__tablet-category">
+            <i class="header-dynamic__tablet-logo fas fa-bars"></i>
+        </div>
+    </div>
+
+    {{!-- Mobile --}}
+
+    <div class="header-dynamic__mobile-list">
+        <div class="mobile-list__top">
+            <div class="mobile-list__icon">
+                <i class="mobile-list__icon fas fa-search"></i>
+            </div>
+            <div class="mobile-list__icon mobile-list__icon--has-count">
+                <i class="mobile-list__icon fas fa-shopping-bag"></i>
+                <span class="mobile-cart__count">1</span>
+            </div>
+            <div class="mobile-list__icon">
+                <i class="mobile-list__icon fas fa-user"></i>
+            </div>
+        </div>
+        <div class="mobile-list__bottom">
+            <div class="mobile-list__bottom-phone">
+                <i class="mobile-list__icon fas fa-phone-alt"></i>
+                <span class="mobile__phone-number">0981199350</span>
+            </div>
+        </div>
+    </div>
+
+
 </header>
 {{!-- JS for scroll  --}}
 <script>

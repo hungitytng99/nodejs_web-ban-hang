@@ -52,7 +52,7 @@ a:hover {
 .header-static__phone-number {
     margin-left: 5px;
     font-weight: 700;
-    font-size: 1.2rem;
+    font-size: 1.3rem;
     text-shadow: 0.9px 0px rgba(0, 0, 0, 0.2);
     color: #252a2b;
 }
@@ -74,7 +74,7 @@ a:hover {
 .header-static__cart {
     font-size: 1.4rem;
     font-weight: 350;
-    margin: 0 50px 0 58px;
+    margin: 0 3vw 0 4vw;
     color: #3f3f3f;
     cursor: pointer;
 }
@@ -137,7 +137,9 @@ html:not([data-scroll="0"]) {
 .header-dynamic__logo {
     margin: 10px 0 0 0;
     width: 16.5%;
-    height: auto;
+    height: 100%;
+    outline: none;
+    text-decoration: none;
 }
 
 .header-dynamic__logo-img {
@@ -146,6 +148,7 @@ html:not([data-scroll="0"]) {
     max-height: 45.5px;
     min-width: 160px;
     max-width: 280px;
+    margin-top: 10px;
 }
 
 .header-dynamic__category {
@@ -395,6 +398,19 @@ html:not([data-scroll="0"]) {
     animation: appear ease-in 0.3s;
     z-index: 1;
     text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.2);
+}
+
+//responsive header non-display element
+.header-dynamic__tablet-list {
+    display: none;
+}
+
+.header-dynamic__mobile-category {
+    display: none;
+}
+
+.header-dynamic__mobile-list {
+    display: none;
 }
 
 @keyframes appear {

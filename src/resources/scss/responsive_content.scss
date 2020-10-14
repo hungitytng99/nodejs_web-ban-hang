@@ -1,13 +1,109 @@
 /* Mobile + tablet */
 
-@media (max-width:1023px) {}
+@media (max-width:1023px) {
+    .hide-on-mobile-tablet {
+        display: none;
+    }
+    .header-dynamic {
+        min-height: 62px;
+        height: 62px;
+        padding: 15px;
+    }
+    .header-dynamic__logo {
+        display: block;
+    }
+    .header-dynamic__logo-img {
+        margin-top: 0px;
+    }
+}
 
 
 /* Tablet */
 
-@media (min-width:740px) and (max-width:1023px) {}
+@media (min-width:740px) and (max-width:1023px) {
+    .hide-on-tablet {
+        display: none;
+    }
+    .header-dynamic__tablet-list {
+        display: flex;
+        align-items: center;
+    }
+    .header-dynamic__tablet-search {
+        margin-right: 16px;
+    }
+    .header-dynamic__tablet-category {
+        margin-right: 10px;
+    }
+    .header-dynamic__tablet-logo {
+        font-size: 2.4rem;
+    }
+    .header-dynamic__tablet-logo-search {
+        font-size: 2.2rem;
+    }
+    .header-dynamic__logo {
+        margin-top: 2px;
+    }
+}
 
 
 /* Mobile  */
 
-@media (max-width:739px) {}
+@media (max-width:739px) {
+    .hide-on-mobile {
+        display: none;
+    }
+    .header-dynamic__mobile-category {
+        display: block;
+    }
+    .header-dynamic__list-left {
+        display: flex;
+        align-items: center;
+    }
+    .header-dynamic__mobile-category {
+        margin-right: 3px;
+    }
+    .header-dynamic__mobile-logo {
+        font-size: 2.4rem;
+    }
+    .header-dynamic__logo {
+        margin-top: 6px;
+        width: 0;
+    }
+    //right side
+    .header-dynamic__mobile-list {
+        display: block;
+        margin-top: -5px;
+    }
+    .mobile-list__top {
+        display: flex;
+        justify-content: flex-end;
+    }
+    .mobile-list__icon {
+        margin-left: 6px;
+        font-size: 1.6rem;
+    }
+    .mobile-list__bottom-phone {
+        font-size: 1.4rem;
+    }
+    .mobile__phone-number {
+        margin-left: 2px;
+    }
+    .mobile-list__icon--has-count {
+        position: relative;
+    }
+    .mobile-cart__count {
+        position: absolute;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        top: 0;
+        right: -5px;
+        height: 14px;
+        width: 14px;
+        // text-align: center;
+        border-radius: 50%;
+        background-color: red;
+        color: var(--white-color);
+        font-size: 1.2rem;
+    }
+}
