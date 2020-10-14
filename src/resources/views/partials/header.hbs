@@ -1,17 +1,272 @@
 <div class="header-static">
     <div class="header-static_list">
         <div class="header-static__phone">
-
+            <i class="header-static__icon fas fa-phone-alt"></i>
+            <span class="header-static__phone-number">0981199350</span>
         </div>
     </div>
     <div class="header-static__list">
-        <div class="header-static__user">
-
+        <div class="header-static__account">
+            <i class="header-static__icon header-static__icon-bigger far fa-user-circle"></i>
+            <span class="header-static__account-text">Tài khoản</span>
         </div>
 
         <div class="header-static__cart">
-
+            <i class="header-static__icon header-static__icon-bigger fas fa-shopping-bag"></i>
+            <span class="header-static__cart-text">Giỏ hàng</span>
+            <span class="header-static__cart-amount">(3)</span>
         </div>
     </div>
-    
 </div>
+
+<header class="header-dynamic">
+    <div class="header-dynamic__logo">
+        <img src="https://bucket.nhanh.vn/store/2071/store_1584681428_275.png" alt="" class="header-dynamic__logo-img">
+    </div>
+
+    <div class="header-dynamic__category">
+        <ul class="header-dynamic__category-list  ">
+            <li class="header-dynamic__category-item category--has-dropdown">
+                <a href="" class="header-dynamic__category-link">Sản phẩm</a>
+
+                {{!-- product dropdown --}}
+                <div class="header-dynamic__category-product">
+                    <div class="header-product__name category--has-dropdown">
+                        <a href="" class="header-product__name-link">
+                            Hàng nam
+                        </a>
+
+                        {{!-- children product name --}}
+                        <div class="header-product__category">
+                            <ul class="header-product__category-list">
+                                <li class="header-product__category-item category--has-dropdown-1">
+                                    <a href="" class="header-product__category-link ">Hàng đông</a>
+                                    {{!-- children of children product --}}
+                                    <ul class="header-category__children-list category-children__1">
+                                        <li class="header-category__children-item">
+                                            <a href="" class="header-category__children-link">Áo phông dài tay</a>
+                                        </li>
+                                        <li class="header-category__children-item">
+                                            <a href="" class="header-category__children-link">Áo nỉ</a>
+                                        </li>
+                                        <li class="header-category__children-item">
+                                            <a href="" class="header-category__children-link">Bộ nỉ</a>
+                                        </li>
+                                        <li class="header-category__children-item">
+                                            <a href="" class="header-category__children-link">Quẩn nỉ</a>
+                                        </li>
+                                        <li class="header-category__children-item">
+                                            <a href="" class="header-category__children-link">Áo khoác 2 lớp</a>
+                                        </li>
+                                        <li class="header-category__children-item">
+                                            <a href="" class="header-category__children-link">Áo khoác 3 lớp</a>
+                                        </li>
+                                        <li class="header-category__children-item">
+                                            <a href="" class="header-category__children-link">Bộ thể thao</a>
+                                        </li>
+                                        <li class="header-category__children-item">
+                                            <a href="" class="header-category__children-link">Giữ nhiệt</a>
+                                        </li>
+                                        <li class="header-category__children-item">
+                                            <a href="" class="header-category__children-link">Áo len</a>
+                                        </li>
+                                    </ul>
+
+                                </li>
+                                <li class="header-product__category-item category--has-dropdown-2">
+                                    <a href="" class="header-product__category-link">Hàng hè</a>
+                                    {{!-- children of children product --}}
+                                    <ul class="header-category__children-list category-children__2">
+                                        <li class="header-category__children-item">
+                                            <a href="" class="header-category__children-link">Áo phông dài tay</a>
+                                        </li>
+                                        <li class="header-category__children-item">
+                                            <a href="" class="header-category__children-link">Áo nỉ</a>
+                                        </li>
+                                        <li class="header-category__children-item">
+                                            <a href="" class="header-category__children-link">Bộ nỉ</a>
+                                        </li>
+                                        <li class="header-category__children-item">
+                                            <a href="" class="header-category__children-link">Quẩn nỉ</a>
+                                        </li>
+                                    </ul>
+                                </li>
+                                <li class="header-product__category-item category--has-dropdown-3">
+                                    <a href="" class="header-product__category-link ">Hàng all</a>
+                                    {{!-- children of children product --}}
+                                    <ul class="header-category__children-list category-children__3">
+                                        <li class="header-category__children-item">
+                                            <a href="" class="header-category__children-link">Áo phông dài tay</a>
+                                        </li>
+                                        <li class="header-category__children-item">
+                                            <a href="" class="header-category__children-link">Áo nỉ</a>
+                                        </li>
+                                    </ul>
+                                </li>
+                            </ul>
+                        </div>
+
+
+                    </div>
+                    <div class="header-product__list">
+                        <a href="#" class="header-product__product">
+                            <img src="https://bucket.nhanh.vn/store/2071/ps/20200924/img_8241_50344829886_o.jpg"
+                                alt="Product#1" class="header-product__product-img">
+                            <span class="header-product__product-name"> Áo khoác Bomber gió bổ sườn Pazzini</span>
+                        </a>
+                        <a href="#" class="header-product__product">
+                            <img src="https://bucket.nhanh.vn/store/2071/ps/20200924/img_8319_50354048098_o.jpg"
+                                alt="Product#2" class="header-product__product-img">
+                            <span class="header-product__product-name">Áo khoác gió có mũ Pazzini</span>
+                        </a>
+                        <a href="#" class="header-product__product">
+                            <img src="https://bucket.nhanh.vn/store/2071/ps/20201009/z2117365396603_8cebf8f26dabb64127eea47cfb67222ca.jpg"
+                                alt="Product#3" class="header-product__product-img">
+                            <span class="header-product__product-name"> Áo khoác da lộn phối ngực Pazzini</span>
+                        </a>
+                    </div>
+                </div>
+            </li>
+            <li class="header-dynamic__category-item category--has-dropdown">
+                <a href="" class="header-dynamic__category-link">Áo khoác</a>
+                {{!-- product dropdown --}}
+                <ul class="header-category__children-list header__category-dropdown">
+                    <li class="header-category__children-item">
+                        <a href="" class="header-category__children-link">Áo khoác gió</a>
+                    </li>
+                    <li class="header-category__children-item">
+                        <a href="" class="header-category__children-link">Áo khoác da lộn</a>
+                    </li>
+                    <li class="header-category__children-item">
+                        <a href="" class="header-category__children-link">Áo khoác kaki</a>
+                    </li>
+                    <li class="header-category__children-item">
+                        <a href="" class="header-category__children-link">Áo khoác da</a>
+                    </li>
+                </ul>
+            </li>
+            <li class="header-dynamic__category-item category--has-dropdown">
+                <a href="" class="header-dynamic__category-link">Áo len</a>
+                {{!-- product dropdown --}}
+                <ul class="header-category__children-list header__category-dropdown">
+                    <li class="header-category__children-item">
+                        <a href="" class="header-category__children-link">Áo len họa tiết</a>
+                    </li>
+                    <li class="header-category__children-item">
+                        <a href="" class="header-category__children-link">Áo len trơn</a>
+                    </li>
+                    <li class="header-category__children-item">
+                        <a href="" class="header-category__children-link">Áo len kẻ</a>
+                    </li>
+                    <li class="header-category__children-item">
+                        <a href="" class="header-category__children-link">Áo len melange</a>
+                    </li>
+                </ul>
+            </li>
+
+            <li class="header-dynamic__category-item category--has-dropdown">
+                <a href="" class="header-dynamic__category-link">Áo phông dài tay</a>
+                {{!-- product dropdown --}}
+                <ul class="header-category__children-list header__category-dropdown">
+                    <li class="header-category__children-item">
+                        <a href="" class="header-category__children-link">Áo phông dài tay melange</a>
+                    </li>
+                    <li class="header-category__children-item">
+                        <a href="" class="header-category__children-link">Áo phông dài tay trơn</a>
+                    </li>
+                </ul>
+            </li>
+
+            <li class="header-dynamic__category-item category--has-dropdown">
+                <a href="" class="header-dynamic__category-link">Sơ mi dài</a>
+                {{!-- product dropdown --}}
+                <ul class="header-category__children-list header__category-dropdown">
+                    <li class="header-category__children-item">
+                        <a href="" class="header-category__children-link">Sơ mi dài tay dạ</a>
+                    </li>
+                    <li class="header-category__children-item">
+                        <a href="" class="header-category__children-link">Sơ mi dài tay họa tiết</a>
+                    </li>
+                    <li class="header-category__children-item">
+                        <a href="" class="header-category__children-link">Sơ mi dài tay kẻ</a>
+                    </li>
+                    <li class="header-category__children-item">
+                        <a href="" class="header-category__children-link">Sơ mi dài tay tay trơn</a>
+                    </li>
+                </ul>
+            </li>
+
+            <li class="header-dynamic__category-item category--has-dropdown">
+                <a href="" class="header-dynamic__category-link">Quẩn dài</a>
+                {{!-- product dropdown --}}
+                <ul class="header-category__children-list header__category-dropdown">
+                    <li class="header-category__children-item">
+                        <a href="" class="header-category__children-link">Quần âu</a>
+                    </li>
+                    <li class="header-category__children-item">
+                        <a href="" class="header-category__children-link">Quần kaki</a>
+                    </li>
+                    <li class="header-category__children-item">
+                        <a href="" class="header-category__children-link">Quần jean</a>
+                    </li>
+                    <li class="header-category__children-item">
+                        <a href="" class="header-category__children-link">Quần gió</a>
+                    </li>
+                </ul>
+            </li>
+
+            <li class="header-dynamic__category-item">
+                <a href="" class="header-dynamic__category-link">Áo polo</a>
+            </li>
+            <li class="header-dynamic__category-item category--has-dropdown">
+                <a href="" class="header-dynamic__category-link">Hàng hè</a>
+                {{!-- product dropdown --}}
+                <ul class="header-category__children-list header__category-dropdown">
+                    <li class="header-category__children-item">
+                        <a href="" class="header-category__children-link">Sơ mi tay ngắn</a>
+                    </li>
+                    <li class="header-category__children-item">
+                        <a href="" class="header-category__children-link">Áo thun</a>
+                    </li>
+                    <li class="header-category__children-item">
+                        <a href="" class="header-category__children-link">Quần short</a>
+                    </li>
+                </ul>
+            </li>
+            <li class="header-dynamic__category-item">
+                <a href="" class="header-dynamic__category-link"> Bộ sưu tập</a>
+            </li>
+            <li class="header-dynamic__category-item ">
+                <a href="" class="header-dynamic__category-link header-dynamic__category-link--hightlight">Sale</a>
+            </li>
+        </ul>
+    </div>
+
+    <div class="header-dynamic__search">
+        <div class="header-dynamic__search-input">
+            <input type="text" class="header-dynamic__search-text" placeholder="Tìm kiếm...">
+            <i class="header-dynamic__search-logo fas fa-search"></i>
+        </div>
+    </div>
+</header>
+{{!-- JS for scroll  --}}
+<script>
+    const debounce = (fn) => {
+        let frame;
+        return (...params) => {
+            if (frame) {
+                cancelAnimationFrame(frame);
+            }
+            frame = requestAnimationFrame(() => {
+                fn(...params);
+            });
+        }
+    };
+    const storeScroll = () => {
+        document.documentElement.dataset.scroll = window.scrollY;
+    }
+    document.addEventListener('scroll', debounce(storeScroll), { passive: true });
+    storeScroll();
+
+
+</script>
