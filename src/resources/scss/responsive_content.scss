@@ -129,4 +129,27 @@
     .nav-search {
         width: 90%;
     }
+    //footer
+    .contact__text {
+        margin-top: 18px;
+        display: block;
+    }
+    .grid.wide-larger.footer-space {
+        padding: 30px 20px;
+    }
+    .footer-company {
+        padding-top: 0px;
+    }
+    .footer-company__mobile-space {
+        padding: 10px 0;
+    }
+    .footer-company_img-certify {
+        width: 290px;
+    }
+    .footer-company__mobile-border {
+        border-top: 1px solid #999;
+    }
+    .footer-company__list {
+        display: none;
+    }
 }

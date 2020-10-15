@@ -23,7 +23,10 @@
     },
     "homepage": "https://github.com/hungitytng99/nodejs_web-ban-hang#readme",
     "dependencies": {
-        "express": "^4.17.1"
+        "express": "^4.17.1",
+        "jquery": "^3.5.1",
+        "jsdom": "^16.4.0",
+        "normalize.css": "^8.0.1"
     },
     "devDependencies": {
         "express-handlebars": "^5.1.0",

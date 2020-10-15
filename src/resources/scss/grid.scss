@@ -9,6 +9,11 @@
     margin: 0 auto;
 }
 
+.grid.wide-larger {
+    max-width: 1380px;
+    margin: 0 auto;
+}
+
 .row {
     display: flex;
     flex-wrap: wrap;
@@ -380,9 +385,7 @@
 /* Tablet - PC low resolution */
 
 @media (min-width: 740px) and (max-width: 1023px) {
-    .wide {
-        width: 644px;
-    }
+    .wide {}
 }
 
 

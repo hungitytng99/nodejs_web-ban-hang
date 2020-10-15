@@ -8,7 +8,7 @@ const port = 3000
 
 //Config
 const route = require('./routes');
-
+//jquery
 
 app.use(express.static(path.join(__dirname, 'public')));
 

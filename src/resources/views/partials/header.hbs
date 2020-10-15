@@ -423,27 +423,3 @@
         <i class="nav-cart__order-detail-icon fas fa-arrow-right"></i>
     </a>
 </div>
-
-{{!-- JS --}}
-<script>
-    //  Scroll: make attribute data-scroll in html element to css
-    const debounce = (fn) => {
-        let frame;
-        return (...params) => {
-            if (frame) {
-                cancelAnimationFrame(frame);
-            }
-            frame = requestAnimationFrame(() => {
-                fn(...params);
-            });
-        }
-    };
-    const storeScroll = () => {
-        document.documentElement.dataset.scroll = window.scrollY;
-    }
-    document.addEventListener('scroll', debounce(storeScroll), { passive: true });
-    storeScroll();
-    //
-
-
-</script>
