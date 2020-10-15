@@ -819,29 +819,32 @@ html:not([data-scroll="0"]) {
 }
 
 .customer-email__input-wrapper {
-    display: flex;
-    width: 100%;
     margin-top: 13px;
-    position: relative;
+    display: flex;
 }
 
 .customer-email__input {
     padding: 10px 0px 10px 16px;
     height: 36px;
     font-size: 1.5rem;
-    flex: 1;
+    width: 100%;
+    border: 1px solid #000;
+}
+
+.customer-email__input:focus {
+    outline: none;
 }
 
 .customer-email__message {}
 
 .customer-email__register {
-    position: absolute;
-    right: 1px;
     border: none;
     color: #fff;
     padding: 5px 10px;
     height: 36px;
+    width: 75px;
     background: #000;
+    display: block;
 }
 
 .follow-page__icon {
