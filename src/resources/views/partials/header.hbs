@@ -11,11 +11,11 @@
             <span class="header-static__account-text">Tài khoản</span>
         </div>
 
-        <div class="header-static__cart">
+        <label for="cart-nav-status" class="header-static__cart">
             <i class="header-static__icon header-static__icon-bigger fas fa-shopping-bag"></i>
             <span class="header-static__cart-text">Giỏ hàng</span>
             <span class="header-static__cart-amount">(3)</span>
-        </div>
+        </label>
     </div>
 </div>
 
@@ -259,9 +259,9 @@
     {{!-- tablet --}}
     <div class="header-dynamic__tablet-list">
 
-        <div class="header-dynamic__tablet-search">
+        <label for="search-nav-status" class="header-dynamic__tablet-search">
             <i class="header-dynamic__tablet-logo header-dynamic__tablet-logo-search fas fa-search"></i>
-        </div>
+        </label>
         <label for="category-menu-status" class="header-dynamic__tablet-category">
             <i class="header-dynamic__tablet-logo fas fa-bars"></i>
         </label>
@@ -271,9 +271,9 @@
     {{!-- Mobile --}}
     <div class="header-dynamic__mobile-list">
         <div class="mobile-list__top">
-            <div class="mobile-list__icon">
+            <label for="search-nav-status" class="mobile-list__icon">
                 <i class="mobile-list__icon fas fa-search"></i>
-            </div>
+            </label>
             <div class="mobile-list__icon mobile-list__icon--has-count">
                 <i class="mobile-list__icon fas fa-shopping-bag"></i>
                 <span class="mobile-cart__count">1</span>
@@ -291,10 +291,9 @@
     </div>
 </header>
 
-{{!-- Modal category --}}
-
+{{!-- Category modal --}}
 <input type="checkbox" id="category-menu-status" class="category__status-checkbox">
-<label for="category-menu-status" class="modal__overlay">
+<label for="category-menu-status" class="modal__overlay-category">
 </label>
 <div class="category-menu">
     <div class="category-menu__title">
@@ -370,6 +369,59 @@
             </a>
         </li>
     </ul>
+</div>
+{{!-- Search modal --}}
+<input type="checkbox" hidden id="search-nav-status" class="search-nav__status-checkbox">
+<label for="search-nav-status" class="modal__overlay-search"></label>
+<div class="nav-search">
+    <div class="nav-search__heading">
+        <span class="nav-search__heading-text">TÌM KIẾM</span>
+        <label for="search-nav-status" class="nav-search__heading-icon fas fa-times"></i>
+    </div>
+    <div class="nav-search__input">
+        <input type="text" class="nav-search__input-box" placeholder="Tìm kiếm...">
+        <i class="nav-search__input-icon fas fa-search"></i>
+    </div>
+
+</div>
+
+{{!-- Cart --}}
+<input type="checkbox" hidden id="cart-nav-status" class="cart-nav__status-checkbox">
+<label for="cart-nav-status" class="modal__overlay-cart"></label>
+<div class="nav-cart">
+    <form action="" class="nav-cart__form">
+        <div class="nav-cart__title">
+            <div class="nav-cart__title-info">
+                <span class="nav-cart__title-text">Giỏ hàng</span>
+                <div class="nav-cart__title-ammount">Bạn đang có
+                    <span class="nav-cart__title-count">0</span> sản phẩm trong giỏ hàng
+                </div>
+            </div>
+
+            <div class="nav-cart__title-close">
+                <label for="cart-nav-status" class="nav-cart__title-icon fas fa-times"></i>
+            </div>
+        </div>
+
+        <span class="nav-cart__no-product">
+            Hiện chưa có sản phẩm
+        </span>
+
+        <span class="line"></span>
+
+        <div class="nav-cart__pay">
+            <b class="nav-cart__pay-text">Tổng tiền tạm tính</b>
+            <div class="nav-cart__pay-money">
+                <div class="nav-cart__pay-money-ammount">0</div>
+                <div class="nav-cart__pay-money-unit">₫</div>
+            </div>
+        </div>
+        <button class="nav-cart__order">Tiến hành đặt hàng</button>
+    </form>
+    <a href="" class="nav-cart__order-detail">
+        <span class="nav-cart__order-detail-text">Xem chi tiết giỏ hàng</span>
+        <i class="nav-cart__order-detail-icon fas fa-arrow-right"></i>
+    </a>
 </div>
 
 {{!-- JS --}}
