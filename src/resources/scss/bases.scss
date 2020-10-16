@@ -10,3 +10,42 @@
     --static-height: 28px;
     --dynamic-height: 70px;
 }
+
+//base
+* {
+    box-sizing: inherit;
+    font-family: 'Quicksand', sans-serif;
+}
+
+html {
+    font-size: 62.5%;
+    box-sizing: border-box;
+    line-height: 1.6rem;
+    font-family: 'Roboto', sans-serif;
+}
+
+.app {
+    overflow: hidden;
+}
+
+a {
+    color: var(--text-color);
+}
+
+a:-webkit-any-link {
+    text-decoration: none;
+}
+
+//~~
+.center-row {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.center-column {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}

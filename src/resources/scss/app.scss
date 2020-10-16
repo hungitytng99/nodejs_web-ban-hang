@@ -1,34 +1,3 @@
-//base
-* {
-    box-sizing: inherit;
-    font-family: 'Quicksand', sans-serif;
-}
-
-html {
-    font-size: 62.5%;
-    box-sizing: border-box;
-    line-height: 1.6rem;
-    font-family: 'Roboto', sans-serif;
-}
-
-.app {
-    overflow: hidden;
-}
-
-a {
-    color: var(--text-color);
-}
-
-a:hover {
-    text-decoration: none;
-    color: var(--text-color);
-    outline: none;
-}
-
-a:-webkit-any-link {
-    text-decoration: none;
-}
-
 // static header
 .header-static {
     display: flex;
