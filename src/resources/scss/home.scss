@@ -3,8 +3,8 @@
     width: 100%;
 }
 
-// Product
-.container__wrapper-product {
+// box
+.container__wrapper-box {
     padding: 40px;
 }
 
@@ -12,14 +12,14 @@
     margin: 0 20px;
 }
 
-.container__wrapper-product-text {
+.container__wrapper-box-text {
     text-transform: uppercase;
     font-weight: 700;
     font-size: 30px;
     margin-bottom: 40px;
 }
 
-.container-product__item {
+.container-box__item {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -27,23 +27,23 @@
     margin-bottom: 38px;
 }
 
-.container-product__item.container-product__item--has-hover:hover {
+.container-box__item.container-box__item--has-hover:hover {
     box-shadow: 0 0 2px 0px #ccc;
     -webkit-box-shadow: 0 0 2px 0px #ccc;
 }
 
-.container-product__link {
+.container-box__link {
     display: flex;
     justify-content: center;
     flex-direction: column;
     align-items: center;
 }
 
-.container-product__link-img {
+.container-box__link-img {
     width: 80%;
 }
 
-.container-product__link-text {
+.container-box__link-text {
     margin: 14px auto 4px;
     width: 80%;
     line-height: 20px;
@@ -55,18 +55,18 @@
     text-align: center;
 }
 
-.container-product__price {
+.container-box__price {
     text-align: center;
     font-weight: 700;
     font-size: 1.4rem;
     margin-bottom: 10px;
 }
 
-.container-product__price:hover {
+.container-box__price:hover {
     cursor: default;
 }
 
-.container-product__btn {
+.container-box__btn {
     height: 38px;
     background-color: #000;
     padding: 6px 0px;
@@ -79,7 +79,7 @@
     display: none;
 }
 
-.container-product__btn a {
+.container-box__btn a {
     width: 50%;
     text-align: center;
     color: var(--white-color);
@@ -87,15 +87,15 @@
     line-height: 2.4rem;
 }
 
-a.container-product__buy {
+a.container-box__buy {
     border-right: 0.5px solid var(--white-color);
 }
 
-.container-product__detail {
+.container-box__detail {
     border-left: 0.5px solid var(--white-color);
 }
 
-.container-product__link-icon {
+.container-box__link-icon {
     margin-right: 4px;
 }
 

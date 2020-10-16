@@ -438,11 +438,13 @@ html:not([data-scroll="0"]) {
 
 .category__status-checkbox:checked~.modal__overlay-category {
     display: block;
+    z-index: 1;
 }
 
 .category__status-checkbox:checked~.category-menu {
     transform: translateX(0%);
     opacity: 1;
+    z-index: 1;
 }
 
 //Modal category
@@ -542,11 +544,13 @@ html:not([data-scroll="0"]) {
 
 #search-nav-status:checked~.modal__overlay-search {
     display: block;
+    z-index: 1;
 }
 
 #search-nav-status:checked~.nav-search {
     transform: translateX(0%);
     opacity: 1;
+    z-index: 1;
 }
 
 // nav search Right

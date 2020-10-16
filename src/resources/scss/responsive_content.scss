@@ -1,7 +1,7 @@
 /* PC */
 
 @media (min-width:1024px) {
-    .container-product__item.container-product__item--has-hover:hover .container-product__btn {
+    .container-box__item.container-box__item--has-hover:hover .container-box__btn {
         display: flex;
     }
 }
@@ -24,7 +24,7 @@
     .header-dynamic__logo-img {
         margin-top: 0px;
     }
-    .container__wrapper-product {
+    .container__wrapper-box {
         padding: 15px;
     }
 }
@@ -167,10 +167,10 @@
     .row.row-larger {
         margin: 0;
     }
-    .container-product__link-img {
+    .container-box__link-img {
         width: 100%;
     }
-    .container-product__link-text {
+    .container-box__link-text {
         margin: 14px 0 4px 0;
         width: 100%;
     }
