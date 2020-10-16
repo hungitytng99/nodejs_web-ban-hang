@@ -1,7 +1,7 @@
 /* PC */
 
 @media (min-width:1024px) {
-    .container-product__item:hover .container-product__btn {
+    .container-product__item.container-product__item--has-hover:hover .container-product__btn {
         display: flex;
     }
 }
@@ -90,7 +90,7 @@
         margin-top: 6px;
         width: 0;
     }
-    //right side
+    // Right side
     .header-dynamic__mobile-list {
         display: block;
         margin-top: -5px;
@@ -127,21 +127,20 @@
         right: -5px;
         height: 14px;
         width: 14px;
-        // text-align: center;
         border-radius: 50%;
         background-color: red;
         color: var(--white-color);
         font-size: 1.2rem;
     }
-    //category nav left
+    // Category nav left
     .category-menu {
         width: 80%;
     }
-    // nav search Right
+    // Nav search Right
     .nav-search {
         width: 90%;
     }
-    //footer
+    // Footer
     .contact__text {
         margin-top: 18px;
         display: block;
@@ -164,7 +163,7 @@
     .footer-company__list {
         display: none;
     }
-    //product
+    // Product
     .row.row-larger {
         margin: 0;
     }
@@ -174,5 +173,15 @@
     .container-product__link-text {
         margin: 14px 0 4px 0;
         width: 100%;
+    }
+    // Suggestion
+    .container-suggestion__week {
+        margin-top: 15px;
+    }
+    .container-suggestion__week {
+        padding: 0 15px;
+    }
+    .container-suggestion__week-description {
+        margin: 25px 0px 20px 0px;
     }
 }
