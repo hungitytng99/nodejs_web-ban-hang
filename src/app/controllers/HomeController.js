@@ -4,8 +4,9 @@ class HomeController {
         return res.render('home');
     }
 
-    search(req, res) {
-        res.render('search');
+    show(req, res, next) {
+        console.log("run");
+        res.render('product/product-detail');
     }
 }
 
